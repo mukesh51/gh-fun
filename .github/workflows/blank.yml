@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: "First Step"
+      - name: First Step
         run: echo "Hello"
-      - name: "Second Step"
+      - name: Second Step
         run: echo "------ World"
